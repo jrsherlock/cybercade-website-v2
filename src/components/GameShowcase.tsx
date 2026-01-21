@@ -68,16 +68,23 @@ export default function GameShowcase() {
     <section id="games" className="py-32 bg-background relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
+          <div className="inline-flex items-center gap-3 mb-6 px-6 py-2 bg-accent/10 border border-accent/30 rounded-full">
+            <Timer className="w-5 h-5 text-accent animate-pulse" />
+            <span className="text-xs font-black tracking-[0.3em] text-accent uppercase">Daily Micro-Training</span>
+          </div>
+          
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-5xl font-display font-normal text-white mb-10 uppercase"
+            className="text-3xl md:text-6xl font-display font-normal text-white mb-8 uppercase tracking-tight"
           >
-            The <span className="text-primary underline decoration-primary/30 underline-offset-[12px]">Core Library</span>
+            Arcade <span className="text-accent italic">Mini-Games</span>
           </motion.h2>
-          <p className="max-w-2xl mx-auto text-xl text-white/50">
-            Highly addictive mini-games designed to build muscle memory and security instincts in under 2 minutes a day.
+          <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/60 leading-relaxed uppercase tracking-wide font-medium">
+            Wordle-like, 2-minute daily challenges that build security muscle memory.
+            <br />
+            <span className="text-white/80">Habit formation through addictive gameplay.</span>
           </p>
         </div>
 

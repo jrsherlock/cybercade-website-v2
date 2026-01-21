@@ -79,9 +79,9 @@ export default function EscapeRooms() {
           </h2>
           
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/60 leading-relaxed uppercase tracking-wide font-medium">
-            Real-time collaboration meets high-stakes cybersecurity. 
+            Engaging, interactive multiplayer experiences teaching crucial cyber skills.
             <br />
-            <span className="text-white/80">Your team vs. the clock vs. the threat.</span>
+            <span className="text-white/80">Extremely fun. Deeply educational. Team-based mastery.</span>
           </p>
         </motion.div>
 

@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-2xl md:text-4xl font-display font-medium tracking-[0.2em] text-white/60 mb-12 leading-[1.4] uppercase">
-            The Future of Security Awareness
+            The <span className="text-white font-bold animate-pulse drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Future</span> of Security Awareness
           </h1>
           
           <p className="max-w-4xl mx-auto text-base md:text-xl text-white/50 mb-16 leading-relaxed uppercase tracking-[0.15em] font-medium">

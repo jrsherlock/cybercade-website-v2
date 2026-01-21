@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProblemSolution from "@/components/ProblemSolution";
 import GameShowcase from "@/components/GameShowcase";
+import EscapeRooms from "@/components/EscapeRooms";
 import Integrations from "@/components/Integrations";
 import Pillars from "@/components/Pillars";
 import Pricing from "@/components/Pricing";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <ProblemSolution />
       <GameShowcase />
+      <EscapeRooms />
       <Integrations />
       <Pillars />
       <Pricing />

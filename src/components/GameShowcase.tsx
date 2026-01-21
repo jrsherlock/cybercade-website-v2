@@ -50,7 +50,7 @@ const games = [
     title: "AccessMaze",
     icon: <Network className="w-10 h-10 text-primary" />,
     description: "Grid-based logic. Place permissions so employees reach resources securely.",
-    objective: "Master Least Privilege & RBAC.",
+    objective: "Masters Least Privilege & RBAC.",
     color: "red"
   },
   {
@@ -58,7 +58,7 @@ const games = [
     title: "QuickCrypt",
     icon: <Timer className="w-10 h-10 text-secondary" />,
     description: "Speed challenges and trivia under pressure. Multiplayer showdown mode included.",
-    objective: "Policy reinforcement & speed.",
+    objective: "Reinforces policy & speed.",
     color: "maroon"
   }
 ];
@@ -116,12 +116,8 @@ export default function GameShowcase() {
               </p>
               
               <div className="mt-auto pt-8 border-t border-white/5">
-                <span className="text-[10px] uppercase tracking-[0.2em] text-white/30 font-bold block mb-3">LEARNING OBJECTIVE</span>
-                <p className={`text-sm font-display leading-relaxed
-                  ${game.color === 'red' ? 'text-primary' : 
-                    game.color === 'maroon' ? 'text-secondary' : 
-                    game.color === 'plum' ? 'text-accent' : 'text-white'}`}
-                >
+                <span className="text-[10px] uppercase tracking-[0.2em] text-white/30 font-bold block mb-3">Learning Objective</span>
+                <p className="text-sm font-display leading-relaxed text-primary">
                   {game.objective}
                 </p>
               </div>

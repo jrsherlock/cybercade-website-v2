@@ -5,7 +5,6 @@ import GameShowcase from "@/components/GameShowcase";
 import EscapeRooms from "@/components/EscapeRooms";
 import Integrations from "@/components/Integrations";
 import Pillars from "@/components/Pillars";
-import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <EscapeRooms />
       <Integrations />
       <Pillars />
-      <Pricing />
       <Footer />
     </main>
   );

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ChevronRight, ShieldCheck, Zap, Trophy } from "lucide-react";
+import { ShieldCheck, Zap, Trophy } from "lucide-react";
 import Logo from "./Logo";
 
 export default function Hero() {
@@ -54,20 +54,6 @@ export default function Hero() {
             <br />
             <span className="text-white">Addictive missions</span> they&apos;ll actually crave.
           </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <motion.button
-              whileHover={{ scale: 1.02, boxShadow: "0 0 40px rgba(255,32,78,0.6)" }}
-              whileTap={{ scale: 0.98 }}
-              className="px-12 py-6 bg-primary text-white rounded-lg font-display text-xs tracking-widest flex items-center gap-4 transition-all group lg:text-sm"
-            >
-              INSERT COIN / START
-              <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </motion.button>
-            <button className="px-12 py-6 rounded-lg font-display text-xs tracking-widest text-white border border-white/20 hover:bg-white/10 transition-all uppercase lg:text-sm">
-              View Specs
-            </button>
-          </div>
         </motion.div>
 
         {/* Floating Components */}

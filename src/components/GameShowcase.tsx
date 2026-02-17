@@ -82,7 +82,9 @@ export default function GameShowcase() {
             Arcade <span className="text-accent italic">Mini-Games</span>
           </motion.h2>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/60 leading-relaxed uppercase tracking-wide font-medium">
-            Wordle-like, 2-minute daily challenges that build security muscle memory.
+            Built for the 99% who aren&apos;t cyber techies. NIST-aligned learning objectives
+            <br />
+            delivered as Wordle-like, 2-minute daily challenges.
             <br />
             <span className="text-white/80">Habit formation through addictive gameplay.</span>
           </p>

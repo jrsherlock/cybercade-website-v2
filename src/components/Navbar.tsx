@@ -11,7 +11,7 @@ const navLinks = [
   { name: "Games", href: "#games" },
   { name: "Integrations", href: "#integrations" },
   { name: "How it Works", href: "#how-it-works" },
-  { name: "Pricing", href: "#pricing" },
+  { name: "About", href: "#about" },
 ];
 
 export default function Navbar() {
@@ -50,12 +50,6 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Link
-            href="#contact"
-            className="px-8 py-4 bg-primary text-white rounded-lg font-display text-[11px] tracking-widest hover:shadow-[0_0_20px_rgba(255,32,78,0.6)] hover:scale-105 transition-all active:scale-95 uppercase lg:text-xs"
-          >
-            Play Now
-          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -86,13 +80,6 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              href="#contact"
-              className="mt-6 w-full py-5 bg-primary text-white rounded-xl font-display text-sm tracking-widest text-center uppercase"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Play Now
-            </Link>
           </motion.div>
         )}
       </AnimatePresence>

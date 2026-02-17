@@ -36,7 +36,7 @@ export default function Footer() {
               <li><Link href="#games" className="hover:text-primary transition-colors">Core Games</Link></li>
               <li><Link href="#integrations" className="hover:text-primary transition-colors">Integrations</Link></li>
               <li><Link href="#" className="hover:text-primary transition-colors">AI Engine</Link></li>
-              <li><Link href="#pricing" className="hover:text-primary transition-colors">Pricing</Link></li>
+              <li><Link href="#about" className="hover:text-primary transition-colors">About</Link></li>
             </ul>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-3 text-sm text-white/40 font-bold">
             <Mail className="w-5 h-5 text-primary" />
-            <span>hello@cybercade.com</span>
+            <span>sales@cybercade.com</span>
           </div>
         </div>
       </div>

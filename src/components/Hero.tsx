@@ -17,8 +17,8 @@ export default function Hero() {
           playsInline
           className="absolute min-w-full min-h-full object-cover opacity-30 mix-blend-screen scale-110"
         >
-          <source src={`${process.env.NODE_ENV === 'production' ? '/cybercade-website-v2' : ''}/Cinemagraphic_Superhero_Website_Hero.mp4`} type="video/mp4" />
-          <img src={`${process.env.NODE_ENV === 'production' ? '/cybercade-website-v2' : ''}/hero-video.gif`} alt="Cybercade Hero" className="w-full h-full object-cover" />
+          <source src="/Cinemagraphic_Superhero_Website_Hero.mp4" type="video/mp4" />
+          <img src="/hero-video.gif" alt="Cybercade Hero" className="w-full h-full object-cover" />
         </video>
         <div className="absolute inset-0 bg-background/70 backdrop-blur-[2px]" />
       </div>

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Twitter, Linkedin, Github, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -18,15 +18,9 @@ export default function Footer() {
               Transforming security training from a compliance burden into a competitive advantage. Play games. Build habits. Protect your organization.
             </p>
             <div className="flex gap-6">
-              <Link href="#" className="p-3 rounded-lg bg-white/5 text-white/40 hover:text-primary hover:bg-white/10 transition-all">
-                <Twitter className="w-6 h-6" />
-              </Link>
-              <Link href="#" className="p-3 rounded-lg bg-white/5 text-white/40 hover:text-secondary hover:bg-white/10 transition-all">
+              <a href="https://linkedin.com/company/cybercade/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-white/5 text-white/40 hover:text-secondary hover:bg-white/10 transition-all">
                 <Linkedin className="w-6 h-6" />
-              </Link>
-              <Link href="#" className="p-3 rounded-lg bg-white/5 text-white/40 hover:text-white hover:bg-white/10 transition-all">
-                <Github className="w-6 h-6" />
-              </Link>
+              </a>
             </div>
           </div>
 
